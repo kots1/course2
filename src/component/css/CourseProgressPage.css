@@ -1,0 +1,60 @@
+/* CourseProgressPage.css */
+
+.course-info {
+    margin-bottom: 20px;
+    background-color: #f2f2f2; /* Сірий фон для загальної інформації про курс */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.course-info h2 {
+    margin-bottom: 10px;
+}
+
+.course-info p {
+    margin-bottom: 10px;
+}
+
+.lessons {
+    margin-top: 30px;
+}
+
+.lessons h3 {
+    margin-bottom: 15px;
+}
+
+.lesson-card {
+    margin-bottom: 20px;
+}
+
+.lesson-card .card-body {
+    padding: 20px;
+}
+
+.lesson-card .card-title {
+    margin-bottom: 10px;
+}
+
+.lesson-card .progress {
+    margin-bottom: 15px;
+}
+
+.lesson-card .progress-bar {
+    height: 20px;
+    background-color: #55c26f; /* Зелений колір для прогрес-бару */
+}
+
+.lesson-card .btn {
+    margin-top: 10px;
+    margin-right: 10px; /* Відступ справа для кожної кнопки */
+}
+
+/* Зміщення кнопок звернення до уроків нижче */
+.lesson-card .btn-group {
+    margin-top: 20px;
+}
+.progress-bar {
+    height: 20px;
+    background-color: #eee;
+    margin-bottom: 10px;
+}

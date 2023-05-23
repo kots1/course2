@@ -1,37 +1,20 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.css';
-import EmployeeList from "./EmployeeList";
-import {BrowserRouter as Router, Route} from "react-router-dom";
-
-import EmployeeEdit from "./EmployeeEdit";
-import Login from "./Login";
-import Registration from "./Registration";
-import Employee from "./Employee";
+import Header from "./component/Header";
+import TestPage from "./component/TestPage";
+import CourseProgressPage from "./component/CourseProgressPage";
+import MainPage from "./component/MainPage";
+import Compiler from "./component/Compiler";
 
 
-
-
-class App extends Component {
-
-    state = {
-        username: ''
-    }
-
-    render() {
-        return (
-            <Router>
-
-                <Route path='/login' component={Login}/>
-                <Route path='/' exact={true} component={EmployeeList}/>
-                <Route path='/employee/:id' component={Employee}/>
-                <Route path='/edit/:id' component={EmployeeEdit}/>
-                <Route path='/registration' component={Registration}/>
-
-            </Router>
-
-        )
-
-    }
+function App() {
+    return (
+        <div className="App">
+            <Header/>
+            {/*<CourseSelection  />*/}
+            <Compiler/>
+        </div>
+    );
 }
 
 export default App;

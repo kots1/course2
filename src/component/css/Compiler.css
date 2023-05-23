@@ -1,0 +1,24 @@
+.Compiler {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left,
+.middle,
+.right {
+    width: 33.33%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.left {
+    background-color: #f1f1f1;
+}
+
+.middle,
+.right {
+    background-color: #fff;
+}
